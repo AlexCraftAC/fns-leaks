@@ -5,10 +5,6 @@ body {
     background-color: #ffffff;
 }
 
-h4 {
-    font-family: 'Luckiest Guy', sans-serif;
-}
-
 br {
     line-height: 15px;
 }
@@ -21,6 +17,16 @@ br {
     margin: auto;
 }
 
+.featured-items {
+    font-family: 'Luckiest Guy', sans-serif;
+    color: black;
+}
+
+.daily-items {
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #000000;
+}
+
 .brand-logo {
     margin-top: 8px;
 }
@@ -30,96 +36,84 @@ br {
     background-size: 550px 550px;
 }
 
-.common-rarity {
-    position: relative;
-    background-color: #478C2E;
-    border: 3px #87E339 solid;
-    width: 524px;
-    height: 524px;
-    margin: auto;
-    text-align: center;
-}
-
 .uncommon-rarity {
     position: relative;
     background-color: #478C2E;
     border: 3px #87E339 solid;
-    width: 524px;
-    height: 524px;
+    width: 285px;
+    height: 285px;
     margin: auto;
     text-align: center;
+}
+
+.uncommon-rarity img {
+  width: 285px;
+  height: 280px;
 }
 
 .rare-rarity {
     position: relative;
     background-color: #48A8EF;
     border: 3px #37D1FF solid;
-    width: 524px;
-    height: 524px;
+    width: 285px;
+    height: 285px;
     margin: auto;
     text-align: center;
+}
+
+.rare-rarity img {
+  width: 285px;
+  height: 280px;
 }
 
 .epic-rarity {
     position: relative;
     background-color: #AC59DD;
     border: 3px #E95EFF solid;
-    width: 524px;
-    height: 524px;
+    width: 285px;
+    height: 285px;
     margin: auto;
     text-align: center;
+}
+
+.epic-rarity img {
+  width: 285px;
+  height: 280px;
 }
 
 .legendary-rarity {
     position: relative;
     background-color: #B16033;
     border: 3px #E98D4B solid;
-    width: 524px;
-    height: 524px;
+    width: 285px;
+    height: 285px;
     margin: auto;
     text-align: center;
 }
 
-.common-rarity {
-    background-color: #4C4C4C;
-    border: 3px #999999 solid;
-    width: 524px;
-    height: 524px;
-    margin: auto;
-    text-align: center;
+.legendary-rarity img {
+  width: 285px;
+  height: 280px;
 }
 
 .item-name {
     position: absolute;
-    bottom: -12%;
+    bottom: -16.2%;
     /* top: 5%; */
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Luckiest Guy', sans-serif;
     color: white;
-    font-size: 45px;
-    height: 120px;
+    font-size: 25px;
+    height: auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.56);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.item-name img {
+  width: 20px;
+  height: 20px;
 }
 
 span {
     display: inline-block;
 }
-
-.col-xs-12 {
-    white-space: nowrap !important;
-    max-width: 100%;
-    overflow: auto;
-  }
-  .col-xs-3 {
-    float: none !important;
-    display: inline-block !important;
-  }
-  .col-xs-3 a {
-    height: 100px;
-    background: pink;
-    display: block;
-    margin-top: 10px;
-    padding: 10px
-  }
