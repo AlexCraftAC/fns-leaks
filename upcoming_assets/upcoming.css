@@ -5,6 +5,10 @@ body {
     background-color: #ffffff;
 }
 
+h4 {
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
 br {
     line-height: 15px;
 }
@@ -17,16 +21,6 @@ br {
     margin: auto;
 }
 
-.featured-items {
-    font-family: 'Luckiest Guy', sans-serif;
-    color: black;
-}
-
-.daily-items {
-    font-family: 'Luckiest Guy', sans-serif;
-    color: #000000;
-}
-
 .brand-logo {
     margin-top: 8px;
 }
@@ -34,6 +28,21 @@ br {
 .rarity {
     border: 5px black solid;
     background-size: 550px 550px;
+}
+
+.common-rarity {
+    position: relative;
+    background-color: #478C2E;
+    border: 3px #87E339 solid;
+    width: 285px;
+    height: 285px;
+    margin: auto;
+    text-align: center;
+}
+
+.common-rarity img {
+  width: 285px;
+  height: 280px;
 }
 
 .uncommon-rarity {
@@ -96,6 +105,15 @@ br {
   height: 280px;
 }
 
+.common-rarity {
+    background-color: #4C4C4C;
+    border: 3px #999999 solid;
+    width: 285px;
+    height: 285px;
+    margin: auto;
+    text-align: center;
+}
+
 .item-name {
     position: absolute;
     bottom: -16.2%;
@@ -109,6 +127,7 @@ br {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .item-name img {
   width: 20px;
   height: 20px;
@@ -117,3 +136,20 @@ br {
 span {
     display: inline-block;
 }
+
+.col-xs-12 {
+    white-space: nowrap !important;
+    max-width: 100%;
+    overflow: auto;
+  }
+  .col-xs-3 {
+    float: none !important;
+    display: inline-block !important;
+  }
+  .col-xs-3 a {
+    height: 100px;
+    background: pink;
+    display: block;
+    margin-top: 10px;
+    padding: 10px
+  }
